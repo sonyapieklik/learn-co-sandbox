@@ -23,7 +23,7 @@ end
       filter = gets.chomp.downcase
       @filter = filter 
     else
-      @filter = "not using a"
+      @filter = "out using a"
     end
     puts "Who can view your story: [e]veryone or [o]nly friends"
     view = gets.chomp
