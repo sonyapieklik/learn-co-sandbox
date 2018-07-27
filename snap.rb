@@ -32,8 +32,8 @@ end
     else 
       @viewers = "Only friends"
     end
-else 
-  puts "How many seconds is your phoyo?"
+  else 
+    puts "How many seconds is your video?"
     time = gets.chomp.to_i
     @timer = time
     puts "Will you be using a filter? y|n"
