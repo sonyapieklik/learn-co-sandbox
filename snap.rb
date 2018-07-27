@@ -34,7 +34,7 @@ end
     end
   else
     @type = type
-    puts "How many seconds is your video?"
+    puts "How many seconds is your photo?"
     time = gets.chomp.to_i
     @timer = time
     puts "Will you be using a filter? y|n"
