@@ -52,6 +52,7 @@ end
     else 
       @viewers = "Only friends"
     end
+  end
   
   end
 puts "Your story is a #{@type} that is #{@timer} seconds with #{@filter} filter. #{@viewers} can view your story."
