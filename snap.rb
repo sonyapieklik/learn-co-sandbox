@@ -9,8 +9,6 @@ def initialize(filter, viewers)
 end
     
     
-    
-def story
   puts "Video or Photo on your story?"
   type = gets.chomp
   if type == "video" || "Video"
@@ -42,6 +40,6 @@ def story
   else 
     puts "done"
     end
-  end
+
 end
 puts "Your story is a #{@type} that is #{@timer} seconds with #{@filter} filter. #{@viewers} are allowed to view your story."
