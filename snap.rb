@@ -22,7 +22,7 @@ end
       puts "Please specify which filter you will be using (ie. dog filter, flower crown, etc.)"
       filter = gets.chomp.downcase
       @filter = filter 
-    if type == "photo"
+    if type == "n"
       @filter = "not using a"
     end
     puts "Who can view your story: [e]veryone or [o]nly friends"
