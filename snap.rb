@@ -33,11 +33,11 @@ attr_accessor :filter, :viewers, :timer, :type
           puts "Who can view your story: [e]veryone or [o]nly friends"
           view = gets.chomp
           if view == "e"
-            @viewers = "everyone"
+            @viewers = "Everyone"
           else 
-            @viewers = "only friends"
+            @viewers = "Only friends"
           end
           
   end 
   
-  puts "Your story is a #{@type} that is #{@timer} seconds while  "
+  puts "Your story is a #{@type} that is #{@timer} seconds with #{@filter} filter. #{viewers} are allowed to view your story."
