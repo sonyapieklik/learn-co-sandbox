@@ -11,7 +11,7 @@ end
     
   puts "Video or Photo on your story?"
   type = gets.chomp
-  if type == "video" || "Video"
+  if type == "video"
     @type = type
     puts "How many seconds is your video?"
     time = gets.chomp.to_i
@@ -22,7 +22,7 @@ end
       puts "Please specify which filter you will be using (ie. dog filter, flower crown, etc.)"
       filter = gets.chomp.downcase
       @filter = filter 
-    else 
+    if type == "photo"
       @filter = "not using a"
     end
     puts "Who can view your story: [e]veryone or [o]nly friends"
@@ -33,7 +33,7 @@ end
       @viewers = "Only friends"
     end
   else 
-    puts "How many seconds is your video?"
+    puts "How many seconds is your photo?"
     time = gets.chomp.to_i
     @timer = time
     puts "Will you be using a filter? y|n"
