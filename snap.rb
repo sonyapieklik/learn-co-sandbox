@@ -32,6 +32,7 @@ end
     else 
       @viewers = "Only friends"
     end
+  
   else
     puts "How many seconds is your photo?"
     time = gets.chomp.to_i
