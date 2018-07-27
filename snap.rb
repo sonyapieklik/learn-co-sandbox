@@ -1,7 +1,7 @@
 class User
 attr_accessor :filter, :viewers, :timer, :type
 
-def initialize(filter, viewers)
+def initialize(filter, viewers, timer, type)
     @filter = filter
     @viewers = viewers
     @timer = time
@@ -35,5 +35,5 @@ end
 else 
   puts "done"
   end
-puts "Your story is a #{type} that is #{timer} seconds with #{filter} filter. #{viewers} are allowed to view your story."
+puts "Your story is a #{@type} that is #{@timer} seconds with #{@filter} filter. #{@viewers} are allowed to view your story."
 end
