@@ -34,6 +34,7 @@ end
     end
   
   else
+    @type = type
     puts "How many seconds is your photo?"
     time = gets.chomp.to_i
     @timer = time
