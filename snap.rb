@@ -32,7 +32,7 @@ end
     else 
       @viewers = "Only friends"
     end
-  elsif type == "photo" 
+  else
     puts "How many seconds is your photo?"
     time = gets.chomp.to_i
     @timer = time
