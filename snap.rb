@@ -20,7 +20,7 @@ end
     answer = gets.chomp
     if answer == "y"
       puts "Please specify which filter you will be using (ie. dog filter, flower crown, etc.)"
-      filter = get.chomp.downcase
+      filter = gets.chomp.downcase
       @filter = filter 
     else 
       @filter = "not using a"
