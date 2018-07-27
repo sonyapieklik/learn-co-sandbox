@@ -39,6 +39,6 @@ attr_accessor :filter, :viewers, :timer, :type
           end
           
   end 
+end
   
   puts "Your story is a #{@type} that is #{@timer} seconds with #{@filter} filter. #{viewers} are allowed to view your story."
-end
