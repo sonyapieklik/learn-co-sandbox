@@ -16,7 +16,7 @@ end
     puts "How many seconds is your video?"
     time = gets.chomp.to_i
     if time < 30
-      puts "It is too long! Please do below 30 seconds."
+      puts "It is too long! Please be below 30 seconds."
 
     else 
       @timer = time
