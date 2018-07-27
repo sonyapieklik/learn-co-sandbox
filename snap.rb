@@ -6,7 +6,7 @@ def initialize(filter, viewers)
     @viewers = viewers
     @timer = time
     @type = type
-  end
+end
     
     
     
